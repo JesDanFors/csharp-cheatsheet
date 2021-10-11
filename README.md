@@ -12,20 +12,20 @@ Formatting | How the code should be Structured | `Console.WriteLine("Hi")    ; /
 `Console.Write` | Calling the method Write in class Console. Made for printing in console. | `Console.Write("h"); Console.Write("i"); //prints hi` | [Printing output](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#1-Printing-Output)
 Multi-Line Comment | Comments used on multiple lines. | /*    */ | [Multiline comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#multi-line-comments)
 XML Documentation Comment | XML markup which can be used in your IDE to understand functions and code better. | `<summary> blah blah blah </summary> <param name="blah"> </param>` | [XML documentation](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#xml-documentation-comments)
-Variable | ? | ? | ?
-Variable Declaration | ? | ? | ?
-Variable Assignment | ? | ? | ?
-Uninitialized Variable | ? | ? | ?
-`=` (Assignment Operator) | ? | ? | ?
-Scope | ? | ? | ?
-Variable Scope | ? | ? | ?
-`int` | ? | ? | ?
-`float` | ? | ? | ?
-`double` | ? | ? | ?
-`bool` | ? | ? | ?
-`char` | ? | ? | ?
-`string` | ? | ? | ?
-`byte` | ? | ? | ?
+Variable | Variable is a capsule made for keeping data, and also to change and manipulate the data. | `var hi = "hi";` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#3-variables)
+Variable Declaration | Variables have a name and type. | `int age;` | [Variable declaration](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-declaration)
+Variable Assignment | Variables can be assigned valid data. | `age = 12;`| [Variable assignment](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-assignment)
+Uninitialized Variable | A variable which has no value assigned is Uninitialized. | `var age;` | [Variable instantiation](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
+`=` (Assignment Operator) | The = is used to give a variable it's value. | `age = 13;` | [Variable instantiation](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
+Scope | Scopes are used to encapsulate your code so it doesn't get to complex. | `{//your code here.}` | [Scope](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#31-scope)
+Variable Scope | A variable can only be used inside the scope it is created in. | `{var age;}` | [Variable scope](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-scope)
+`int` | Variable type for whole-numbers. | `int age = 12;` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`float` | Variable type for fractional numbers. | `float temperature = 12,5f;` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`double` | Variable type for more precise fractional numbers. | `double diameter = 5,004;` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`bool` | Variable type for true/false. | `bool wantCoffee = true;` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`char` | variable for a single character | `char Initial = 'A';` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`string` | variable for multiple characters. | `string message = "oh hello there";` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`byte` | Variable for smaller values. | `byte someByte = 0xF1;` | [Basic data types](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 Implicit Casting | ? | ? | ?
 Explicit Casting | ? | ? | ?
 Type Conversion | ? | ? | ?
