@@ -10,8 +10,8 @@ Script Execution Order | The knowledge of in which order your code is executed, 
 Formatting | How the code should be Structured | `Console.WriteLine("Hi")    ; //this is still fine.´ | [Script execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-Script-Execution)
 `Console.WriteLine` | Calling the method WriteLine in class Console. Made for printing in console. | `Console.WriteLine("Hello world!")` | [Printing output](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#1-Printing-Output)
 `Console.Write` | Calling the method Write in class Console. Made for printing in console. | `Console.Write("h"); Console.Write("i"); //prints hi` | [Printing output](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#1-Printing-Output)
-Multi-Line Comment | ? | ? | ?
-XML Documentation Comment | ? | ? | ?
+Multi-Line Comment | Comments used on multiple lines. | /*    */ | [Multiline comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#multi-line-comments)
+XML Documentation Comment | XML markup which can be used in your IDE to understand functions and code better. | `<summary> blah blah blah </summary> <param name="blah"> </param>` | [XML documentation](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#xml-documentation-comments)
 Variable | ? | ? | ?
 Variable Declaration | ? | ? | ?
 Variable Assignment | ? | ? | ?
