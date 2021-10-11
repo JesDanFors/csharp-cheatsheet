@@ -89,38 +89,37 @@ seed | Used to create a recreateable rndom instance. | `Random(1234)` | [Random]
 `while` | A Loop that continues aslong as it's statement is true. | `while(true){//do stuff.}` | [While](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.3-console-basics-3.md#13-while-loops)
 bool-expression | An expression that will return a boolean value. | `(this thing is the same as this thing) = true;` | [While](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.3-console-basics-3.md#13-while-loops)
 `do..while` | Same functionality as while loop, but will always run the code before checking the statement. | `do{//this cool stuff}while(true)` | [While](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.3-console-basics-3.md#13-while-loops)
-`for` | ? | ? | ?
-iteration statement | ? | ? | ?
-loop body | ? | ? | ?
-loop | ? | ? | ?
-execution | ? | ? | ?
-execution jump | ? | ? | ?
-`break` | ? | ? | ?
-`continue` | ? | ? | ?
-`Array` | ? | ? | ?
-`int[]` | ? | ? | ?
-Array Initialization | ? | ? | ?
-Array Access for Assignment | ? | ? | ?
-Array Access for Reading | ? | ? | ?
-`Array.Resize` | ? | ? | ?
-`Array.Length` | ? | ? | ?
-`foreach` | ? | ? | ?
-`2D-Array` | ? | ? | ?
-2D-Array Initialization | ? | ? | ?
-2D-Array Access for Assignment | ? | ? | ?
-2D-Array Access for Reading | ? | ? | ?
-Jagged Arrays | ? | ? | ?
-Method | ? | ? | ?
-`void` | ? | ? | ?
-Return Type | ? | ? | ?
-`()` | ? | ? | ?
-Parameter | ? | ? | ?
-Argument | ? | ? | ?
-Parameter | ? | ? | ?
-Parameter-List | ? | ? | ?
-Named Arguments | ? | ? | ?
-Optional Arguments | ? | ? | ?
-Default Value | ? | ? | ?
+`for` | Loop that goes for a determined amount of time. | `for(int i = 0, i<x, i++){//do stuff}` | [For Loop](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+iteration statement | The part of the loop that progresses | `i++` | [for loop](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+loop body | The executing part of the loop. | `{Do stuff}` | [for loop](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+loop | A type of code that iterates the same code multiple times. | `for` | [for loop](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+execution | What is about to be done. | `{}` | [for loop](https://github.com/marczaku/cs[harp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+execution jump | When you iterate and jump back to the beginning | `{}` | [for loop](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#14-for-loop)
+`break` | Used to interupt a loop and continue after the loop. | `break;` | [Break Continue](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#15-break--continue)
+`continue` | Used to interupt the current iteration of a loop. | `continue;` | [break continue](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#15-break--continue)
+`Array` | A collection of variables of the same type. | `string[] a = new string[3];` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+`int[]` | An array of ints. | `int[] number = new int[4];` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+Array Initialization | Creating an array. | `int[] name = new int[5];` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+Array Access for Assignment | You can assign an element in the array with a value. | `name[1] = 5;` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+Array Access for Reading | You can also read the value in an array. | `Console.WriteLine(name[1]);` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+`Array.Resize` | Function that creates a new array in a diffrent size using the data already in the array. | `Array.Resize(name, 5);`| [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+`Array.Length` | The total number of elements in the array. | name.Length;` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+`foreach` | A loop that will iterate once for every element in an array. | `foreach(var VARIABLE in Array name){//do something}` | [Array](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#16-arrays)
+`2D-Array` | A 2 dimensional array which is an array made as a "grid". | `int[,] name = new int[3,3];` | [2D Arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#17-2d-arrays)
+2D-Array Initialization | How to create a 2D-array. | `int[,] name = new int[4,4];` | [2D Arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#17-2d-arrays)
+2D-Array Access for Assignment | To set the value you need to specify in bot axels where you want the value assigned. | `name[3,2] = 12` | [2D Arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#17-2d-arrays)
+2D-Array Access for Reading | Same for reading value. | `Console.WriteLine(name[2,4]);` | [2D Arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#17-2d-arrays)
+Jagged Arrays | An array of arrays, each element can have diffrent sizes. | `string [][] crazy = new strings[2][];` | [Jagged arrays](https://github.com/marczaku/csharp-oop/blob/main/slides/003.3.5-console-basics-4.md#jagged-arrays)
+Method | Used for grouping functionality and make it reusable. | `public void Method(){//do your stuff!}` | [Methods](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#1-methods)
+`void` | This is a type made for methods that will not return anything when using the method | `static void Main(){//do cool stuff}` | [Methods](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#1-methods)
+Return Type | Return type is defined in the method and will tell if the method returns anything and what it then return. | `void, int` | [Methods](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#1-methods)
+`()` | Parenthesis, this is where you put in the required variables in a method. | `static void Main(int age){//do cool stuff with age}` | [Methods](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#1-methods)
+Parameter | What you put into the method to give it values from outside its scope. | `(int age, string name)` | [Parameters](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#2-parameters)
+Argument | The instance of an parameter. | `(12)` | [Parameters](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#2-parameters)
+Parameter-List | You can have multiple parameters called in a method. | `(int age, string name, house home)` | [Multiple parameters](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#multiple-parameters)
+Named Arguments | Arguments can be named to increase understanding of the code. | `(age: 12)` | [Named arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#named-arguments)
+Optional Arguments | You can create a default value for the argument | `(int i = 12)` | [Optional arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#optional-arguments)
+Default Value | using optimal arguments will create a default value. | `(int i = 12) // 12 is default value.`  | [Optional arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#optional-arguments)
 `return` | ? | ? | ?
 Code Paths | ? | ? | ?
 Method Overloading | ? | ? | ?
