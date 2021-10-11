@@ -1,5 +1,6 @@
-# CSharp Cheat Sheet Template
+# CSharp Cheat Sheet
 
+:metal: :metal: :metal:
 Keyword |                  Summary                   | Sample Code | Mentioned In
 ------- | ------------------------------------------ | ------------ | ------------
 `;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
