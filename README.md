@@ -185,3 +185,4 @@ Composition | Class using another class as a field or property. | `public class 
 "Composition over Inheritance" | A coding philosophy where rather use of components in a class then inheriting. | TRUE | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
 `const` | Makes the var unchangeable. | `const int players = 2;` | TBA
 `magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
+Interface | A class that is only a blueprint, other classes implementing this needs to have all members implemented. | `public class Practical : Interface` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
