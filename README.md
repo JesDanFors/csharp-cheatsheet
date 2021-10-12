@@ -167,22 +167,21 @@ Processing | Manipulating variables into something else we need. | `Math.Add(int
 Expression Body Syntax | Certain syntax for get and set. | `get=> this; set=> this=this;` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Auto Property | A property has a hidden field for values. | `public int Age{get; private set;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Read-Only Property | Read only properties can never change their value, only collect it. | `public string Name{get;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
-Auto Property | ? | ? | ?
-base-Class | ? | ? | ?
-Inherit From | ? | ? | ?
-Derived Class | ? | ? | ?
-Child Class | ? | ? | ?
-Parent Class | ? | ? | ?
-`sealed` | ? | ? | ?
-Polymorphism | ? | ? | ?
-`as` | ? | ? | ?
-`virtual` | ? | ? | ?
-`override` | ? | ? | ?
-`base` | ? | ? | ?
-Abstraction | ? | ? | ?
-`abstract` | ? | ? | ?
-Implementation | ? | ? | ?
-Composition | ? | ? | ?
-"Composition over Inheritance" | ? | ? | ?
+base-Class | A class containing all logic that is useable across multiple classes. | `Specialised class : base class` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Inherit From | Where this class is inheriting its members. | `inheritance : base` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Derived Class | The class that is inheriting. | `Derived : base` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Child Class | Same as derived class. | `child : base` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Parent Class | Same as the base class. inheriting from Syntax. | `child : Parent` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+`sealed` | Keyword used for making a class uninheritable. | `public sealed class Dog` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Polymorphism | Using a derived class as a base class. | `Dog:Animal{Dog dog = new Animal();}` | [Polymorphism](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#3-polymorphism)
+`as` | Keyword for transforming a base object into the child class.  | `Dog dog = animal as Dog;` | [Polymorphism](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#3-polymorphism)
+`virtual` | Keyword for making methods overrideable by child class. | `public virtual void Bark(){}` | [Polymorphism](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#3-polymorphism)
+`override` | Keyword for making a overriden version of a method. | `public override void Bark(pitch){}` | [Polymorphism](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#3-polymorphism)
+`base` | Keyword for calling the base class. | `base.Bark();` | [Polymorphism](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#3-polymorphism)
+Abstraction | The concept of creating a class as a blueprint that can't be instantiated. | `public abstract class Dog{}` | [Abstraction](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#4-abstraction)
+`abstract` | Keyword used for creating an abstract class. | `abstract` | [Abstraction](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#4-abstraction)
+Implementation | Classes implement an interface | IDK | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
+Composition | Class using another class as a field or property. | `public class Dude{public Fist fist{get; set;}}` | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
+"Composition over Inheritance" | A coding philosophy where rather use of components in a class then inheriting. | TRUE | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
 `const` | Makes the var unchangeable. | `const int players = 2;` | TBA
 `magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
