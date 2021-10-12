@@ -68,7 +68,7 @@ immutable | This means something can never actually be changed, rather it create
 Logical Operators | Operators used to implement logic. | `!, &&` | [Logical operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
 `!` | Reads as NOT. | `!true` | [Logical operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
 `&&` | Reads as AND | `this && this` | [Logical operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
-`||` | Reads as OR | `this || this` | [Logical operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
+`\|\|` | Reads as OR | `this \|\| this` | [Logical operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
 Comparison Operators | Used to compare between two values. | `<,>,==` |   [Comparison operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
 `>` | Reads as greater | `5>2` | [Comparison operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
 `==` | Reads as equal | `5==5` | [Comparison operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
