@@ -120,48 +120,48 @@ Parameter-List | You can have multiple parameters called in a method. | `(int ag
 Named Arguments | Arguments can be named to increase understanding of the code. | `(age: 12)` | [Named arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#named-arguments)
 Optional Arguments | You can create a default value for the argument | `(int i = 12)` | [Optional arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#optional-arguments)
 Default Value | using optimal arguments will create a default value. | `(int i = 12) // 12 is default value.`  | [Optional arguments](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#optional-arguments)
-`return` | ? | ? | ?
-Code Paths | ? | ? | ?
-Method Overloading | ? | ? | ?
-Object-Oriented Programming | ? | ? | ?
-Data | ? | ? | ?
-Function | ? | ? | ?
-Structured Programming | ? | ? | ?
-Objects | ? | ? | ?
-Instance Method | ? | ? | ?
-Class | ? | ? | ?
-Type | ? | ? | ?
-`class` | ? | ? | ?
+`return` | Keyword, if empty finishes the current method. else if a method as a returntype this keyword is used. | `return age;` | [Return type](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#3-return-type)
+Code Paths | All code must return a value, either void or anything else. | `{{{return;}return;}return;}` | [Code paths](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#5-code-paths)
+Method Overloading | Having more methods share the same name but differ in input or output. | `void add(int, int); void add(float, float)` | [Overloading](https://github.com/marczaku/csharp-oop/blob/main/slides/003.4-console-methods.md#6-overloading)
+Object-Oriented Programming | Prgorams are divided into objects, these objects contain functions and data. | IDK | [Object oriented](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#3-object-oriented)
+Data | Storage for information. | `int i = 5;` | [Object oriented](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#3-object-oriented)
+Function | Functions take data in and returns data out, it's the practical use of a method. | `void add(5,5);` | [Object oriented](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#3-object-orienteds)
+Structured Programming | Programs are divided into functions and data. | IDK | [Structured programming](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#2-structured-programming)
+Objects | Instansiations of a class. | `Dog dog = new Dog();` | [classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Instance Method | A method used in the current object. | `dog.bark();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Class | The template for our objects. | `public class Dog{}` | [classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Type | Definition of what the class is. | `Dog dog();` | [Static class members](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#6-static-class-members)
 `new` | ? | ? | ?
-Class Member | ? | ? | ?
-Class Instance | ? | ? | ?
-Garbage Collector | ? | ? | ?
-`null` | ? | ? | ?
-Invoke | ? | ? | ?
-Field | ? | ? | ?
-Static Class Member | ? | ? | ?
-Static Class | ? | ? | ?
-Global Access | ? | ? | ?
-Constructor | ? | ? | ?
-Initial Class Values | ? | ? | ?
-Parameterless | ? | ? | ?
-Default Contructor | ? | ? | ?
-Finalizer | ? | ? | ?
-Object Destruction | ? | ? | ?
-`GC.Collect` | ? | ? | ?
-Encapsulation | ? | ? | ?
-Access Modifier | ? | ? | ?
-`private` | ? | ? | ?
-`protected` | ? | ? | ?
-`public` | ? | ? | ?
-`internal` | ? | ? | ?
+`class` | The keyword for creating a class. | `class` | [CLasses and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Class Member | Each individual method or data in the class. | `Dog.bark();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Class Instance | The defined and useable object. | `Dog dog = new Dog();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Garbage Collector | The feature that takes care of destroying objects. | `GC` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+`null` | Keyword for no instance | `dog = null;` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Invoke | Using a method in an instance of a class. | `dog.bark();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
+Field | A variable belonging to the specific object. | `private string name = "Gus";` | [Class members](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#5-class-members)
+Static Class Member | Always part of the class and not the instance. | `static void Add();` | [Static class member](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#6-static-class-members)
+Static Class | A completly static class, cannot be instantiated using `new` | `public static class Main{}` | [Static class member](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#6-static-class-members)
+Global Access | Stuff that can be accessed from anywhere | `static int age;` | [Static class member](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#6-static-class-members)
+Constructor | Describes how a new object can be created | `public dog(){}` | [Constructor](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#7-constructor)
+Initial Class Values | Values that the object will be insta with. | `public Dog(name){}` | [Constructor](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#7-constructor)
+Parameterless | A constructor with no parameters, used to great objects with no need for extra info. | `public Dog(){}` | [Constructor](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#7-constructor)
+Default Contructor | The parameterless constructor. | `public Dog(){}` | [Constructor](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#7-constructor)
+Finalizer | Executes when the object is destroyed. | `~Dog(){}` | [Finalizer](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#8-finalizer)
+Object Destruction | The fenomen of destroying an instance. | `GC.Collect` | [Finalizer](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#8-finalizer)
+`GC.Collect` | Syntax of how to manually call the garbage collector. | `GC.Collect();` | [Finalizer](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#8-finalizer)
+Encapsulation | The process of making something accessable only in a certain scope. | `private int age;` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
+Access Modifier | Used to limit access to class members. | `private, protected` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
+`private` | Access modifier used to limit access to only the specific class. | `private void Main(){}` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
+`protected` | Access modifier used to limit access to only the class and Inheriting classes. | `protected void Main(){}` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
+`public` | Access modifier used to give free access globaly | `public int age;` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
+`internal` | Access modifier used to give global access within the project. | `internal int age;` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
 Class Member Access | ? | ? | ?
-Inheritance | ? | ? | ?
-Property | ? | ? | ?
-Getter Method | ? | ? | ?
-Setter Method | ? | ? | ?
-Validation | ? | ? | ?
-Processing | ? | ? | ?
+Inheritance | Made for reusing code for classes sharing characteristics. | `inheriter : base ` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
+Property | Used in C# to replace getter and setter methods. | `public int Something{set{//do something}get{//return something}}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Getter Method | A method used to collect a value | `GetSomething{return;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Setter Method | A method to manipulate and set a value | `SetSomething{//do stuff}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Validation | Making sure that values that are handled are of a correct format. | `Math.min(int, int)` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Processing | Manipulating variables into something else we need. | `Math.Add(int, int)` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 `get` | ? | ? | ?
 `set` | ? | ? | ?
 Expression Body Syntax | ? | ? | ?
@@ -184,3 +184,5 @@ Abstraction | ? | ? | ?
 Implementation | ? | ? | ?
 Composition | ? | ? | ?
 "Composition over Inheritance" | ? | ? | ?
+`const` | Makes the var unchangeable. | `const int players = 2;` | TBA
+`magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
