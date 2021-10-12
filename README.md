@@ -131,7 +131,7 @@ Objects | Instansiations of a class. | `Dog dog = new Dog();` | [classes and obj
 Instance Method | A method used in the current object. | `dog.bark();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
 Class | The template for our objects. | `public class Dog{}` | [classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
 Type | Definition of what the class is. | `Dog dog();` | [Static class members](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#6-static-class-members)
-`new` | ? | ? | ?
+`new` | Keyword for instantiating a new object. | ` Dog dog = new Dog;` | [Object oriented](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#3-object-oriented)
 `class` | The keyword for creating a class. | `class` | [CLasses and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
 Class Member | Each individual method or data in the class. | `Dog.bark();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
 Class Instance | The defined and useable object. | `Dog dog = new Dog();` | [Classes and objects](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#4-classes--objects)
@@ -155,7 +155,7 @@ Access Modifier | Used to limit access to class members. | `private, protected` 
 `protected` | Access modifier used to limit access to only the class and Inheriting classes. | `protected void Main(){}` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
 `public` | Access modifier used to give free access globaly | `public int age;` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
 `internal` | Access modifier used to give global access within the project. | `internal int age;` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
-Class Member Access | ? | ? | ?
+Class Member Access | Used to limit access to members within the class. | `private, public` | [Access modifiers](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes.md#9-access-modifiers)
 Inheritance | Made for reusing code for classes sharing characteristics. | `inheriter : base ` | [Inheritance](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#2-inheritance)
 Property | Used in C# to replace getter and setter methods. | `public int Something{set{//do something}get{//return something}}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Getter Method | A method used to collect a value | `GetSomething{return;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
@@ -185,4 +185,5 @@ Composition | Class using another class as a field or property. | `public class 
 "Composition over Inheritance" | A coding philosophy where rather use of components in a class then inheriting. | TRUE | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
 `const` | Makes the var unchangeable. | `const int players = 2;` | TBA
 `magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
-Interface | A class that is only a blueprint, other classes implementing this needs to have all members implemented. | `public class Practical : Interface` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
+Interface | A class that is only a blueprint, other classes implementing this needs to have all members implemented. | `public class Practical : Interface` `IClassName` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
+`Value Types` | Value Types are types that when passed to another variable or as an argument to a method. They get copied. / Cloned. | `int a;` | [Discord](https://discord.com/channels/690251537926193166/887723893127774309/897447267613671434)
