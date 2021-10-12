@@ -162,11 +162,11 @@ Getter Method | A method used to collect a value | `GetSomething{return;}` | [Pr
 Setter Method | A method to manipulate and set a value | `SetSomething{//do stuff}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Validation | Making sure that values that are handled are of a correct format. | `Math.min(int, int)` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Processing | Manipulating variables into something else we need. | `Math.Add(int, int)` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
-`get` | ? | ? | ?
-`set` | ? | ? | ?
-Expression Body Syntax | ? | ? | ?
-Auto Property | ? | ? | ?
-Read-Only Property | ? | ? | ?
+`get` | Syntax for collecting a value | `get{return this stuff}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+`set` | Syntax for setting a value. | `set {//this is now this}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Expression Body Syntax | Certain syntax for get and set. | `get=> this; set=> this=this;` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Auto Property | A property has a hidden field for values. | `public int Age{get; private set;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
+Read-Only Property | Read only properties can never change their value, only collect it. | `public string Name{get;}` | [Properties](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#1-properties)
 Auto Property | ? | ? | ?
 base-Class | ? | ? | ?
 Inherit From | ? | ? | ?
