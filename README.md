@@ -1,6 +1,6 @@
 # CSharp Cheat Sheet
 
-:metal: :metal: :metal:
+:metal: :metal: :metal:                                                   Also find more info on [Discord](https://discord.com/channels/690251537926193166/887723893127774309/887982892679049226)
 Keyword |                  Summary                   | Sample Code | Mentioned In
 ------- | ------------------------------------------ | ------------ | ------------
 `;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
@@ -183,8 +183,7 @@ Abstraction | The concept of creating a class as a blueprint that can't be insta
 Implementation | Classes implement an interface | IDK | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
 Composition | Class using another class as a field or property. | `public class Dude{public Fist fist{get; set;}}` | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
 "Composition over Inheritance" | A coding philosophy where rather use of components in a class then inheriting. | TRUE | [Composition](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-2.md#5-composition)
-`const` | Makes the var unchangeable. | `const int players = 2;` | TBA
-`magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
+`magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | [Wikipedia](https://en.wikipedia.org/wiki/Magic_number_(programming))
 Interface | A class that is only a blueprint, other classes implementing this needs to have all members implemented. | `public class Practical : Interface` `IClassName` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
 `Value Types` | Value Types are types that when passed to another variable or as an argument to a method. They get copied. / Cloned. | `int a;` | [Discord](https://discord.com/channels/690251537926193166/887723893127774309/897447267613671434)
 Multi Interface | A class could have many small interfaces. | `public class Dog : Animal, ISound, IFeedable` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#13-interfaces---3)
@@ -192,6 +191,6 @@ Multi Interface | A class could have many small interfaces. | `public class Dog 
 divide et impera | Divide and conquer. | Split functionality into smaller modules, eg. using methods | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/897466961682923520)
 Boyscout rule | The principle of leaving it cleaner than you found it. | Itterate your code for improvements. | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/897455425753075713)
 Rename in Rider. | Renaming methods and other things in the entire project. | ctrl + R, ctrl + R | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/897454117549645824)
-`const` | A constant variable that can't be changed. | `const int personalnumber;` | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/897450576273625098) 
+`const` | A constant variable that can't be changed. | `const int personalnumber;` | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/897450576273625098)
 Enum | A list of predetermined values. | `public enum GameState {MaunMenu, Pause, Playing }` | [Enum](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#4-enum---4)
 Generics | ? | ? | [Generics](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#6-generics)
