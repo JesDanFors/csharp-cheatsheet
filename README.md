@@ -187,3 +187,7 @@ Composition | Class using another class as a field or property. | `public class 
 `magic numbers` | Presens of numbers in code that isnt explained. | `Math.Min(0,5);` | TBA
 Interface | A class that is only a blueprint, other classes implementing this needs to have all members implemented. | `public class Practical : Interface` `IClassName` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#11-interfaces)
 `Value Types` | Value Types are types that when passed to another variable or as an argument to a method. They get copied. / Cloned. | `int a;` | [Discord](https://discord.com/channels/690251537926193166/887723893127774309/897447267613671434)
+Multi Interface | A class could hav many small interfaces. | `public class Dog : Animal, ISound, IFeedable` | [Interfaces](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#13-interfaces---3)
+`is` | Keyword for checking if a class is using a interface. | `if ( animal is ICarriable carriable)` | [Interface](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#14-interfaces---4)
+Enum | A list of predetermined values. | `public enum GameState {MaunMenu, Pause, Playing }` | [Enum](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#4-enum---4)
+Generics | ? | ? | [Generics](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#6-generics)
