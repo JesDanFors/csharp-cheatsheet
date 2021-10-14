@@ -195,3 +195,12 @@ Rename in Rider. | Renaming methods and other things in the entire project. | ct
 Enum | A list of predetermined values. | `public enum GameState {MaunMenu, Pause, Playing }` | [Enum](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#4-enum---4)
 Generics | ? | ? | [Generics](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#6-generics)
 Right associative | values are always set from right to left. | `a = 2;` | [Multiple declarations](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#multiple-declarations)
+
+TODO:
+CheatSheet: Down-Casting
+CheatSheet: Up-Casting
+CheatSheet: is
+CheatSheet: as
+CheatSheet: !=null
+CheatSheet: NullReferenceException
+CheatSheet: (Type) variable; Casting-Operator
