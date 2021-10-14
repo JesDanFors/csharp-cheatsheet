@@ -195,12 +195,8 @@ Rename in Rider. | Renaming methods and other things in the entire project. | ct
 Enum | A list of predetermined values. | `public enum GameState {MaunMenu, Pause, Playing }` | [Enum](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#4-enum---4)
 Generics | ? | ? | [Generics](https://github.com/marczaku/csharp-oop/blob/main/slides/003.6-console-intermediate.md#6-generics)
 Right associative | values are always set from right to left. | `a = 2;` | [Multiple declarations](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#multiple-declarations)
-
-TODO:
-CheatSheet: Down-Casting
-CheatSheet: Up-Casting
-CheatSheet: is
-CheatSheet: as
-CheatSheet: !=null
-CheatSheet: NullReferenceException
-CheatSheet: (Type) variable; Casting-Operator
+Down-Casting | Casting a class to its base class. | `Animal animal = dog;` | [Down-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#down-casting)
+Up-Casting | Casting a class to its child class.| `Dog dog = (dog) animal;` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
+`!=null` | Comparison operation, NOT null. | `this != null` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
+NullReferenceException | An exception where the referenced object doesn't have a value. | `Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
+`(Type) variable` | Casting operation for changing the var to a diffrent type. | `int thing = (string) thingString;` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
