@@ -201,3 +201,4 @@ Up-Casting | Casting a class to its child class.| `Dog dog = (dog) animal;` | [U
 NullReferenceException | An exception where the referenced object doesn't have a value. | `Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
 `(Type) variable` | Casting operation for changing the var to a diffrent type. | `int thing = (string) thingString;` | [Up-Casting](https://github.com/marczaku/csharp-oop/blob/main/slides/003.5-classes-3.md#up-casting)
 `Type-Safe` | Will create compile errors if a value is assigned to the wrong type. | `int = char` | [C#-corner & lecture](https://www.c-sharpcorner.com/UploadFile/vikie4u/type-safety-in-net/)
+`Parse` | converting strings to another type. |`"Hello" = parse.greeting();` | [Discord](https://discord.com/channels/690251537926193166/881839312939917322/899930486644822057)
