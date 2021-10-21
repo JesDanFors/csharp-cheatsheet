@@ -210,3 +210,4 @@ Constrains syntax | type constrains usuaky are named Tthing. | `where TMonster :
 Multiple Type Parameter | You can use multiple type parameters | `connection<TFrom, TTo> ` | [Multiple type parameters](https://github.com/marczaku/csharp-intermediate/blob/main/slides/003.6-console-intermediate-2-generics.md#multiple-type-parameter)
 Parameterless Type constrains | Thanks to the new() syntax you can create anything that has a parameterless constructor. | `TThing : new() {}` | [Parameterless Constructor type constrains](https://github.com/marczaku/csharp-intermediate/blob/main/slides/003.6-console-intermediate-2-generics.md#parameter-less-constructor-type-constraint)
 Generic methods | Used to create a generic method. | `public TMonster CreateNewMonster<TMonster>() where TMonster : Monster, new() {}` | [Generic methods](https://github.com/marczaku/csharp-intermediate/blob/main/slides/003.6-console-intermediate-2-generics.md#generic-methods)
+List | ? | ? | ?
