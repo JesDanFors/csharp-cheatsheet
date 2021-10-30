@@ -22,3 +22,5 @@ Direct Referencing | You can call a specific component in a field. | `public Scr
 `GetComponents()` | ? | ? | ?
 `FindObjectOfType()` | ? | ? | ?
 `SendMessage` | ? | ? | ?
+Canvas | The obejct that can render UI. | ? | ?
+Rect Transform | The transform for UI | ? | ?
