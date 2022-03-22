@@ -25,3 +25,4 @@ Direct Referencing | You can call a specific component in a field. | `public Scr
 Canvas | The obejct that can render UI. | ? | ?
 Rect Transform | The transform for UI | ? | ?
 Unity Event | Events in unity that can be called invoked. | `private UnityEvent OnJump; OnJump.Invoke();` | [UnityEvents](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html)
+Physics.CheckSphere | Checks for collissions in a sphere around the centerpoint. Usefull for audiotriggers, maybe even 3D sound? | `if(Physics.CheckSphere(transform.position, sphereRadius))` | [Unity documentation](https://docs.unity3d.com/ScriptReference/Physics.CheckSphere.html)
